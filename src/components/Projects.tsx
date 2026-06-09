@@ -1,7 +1,7 @@
-import { useRef, useState } from 'react';
+import { useRef,  } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SectionHeading from './SectionHeading';
-import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
+import { ExternalLink, Github,  } from 'lucide-react';
 
 const projects = [
   {

@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import SectionHeading from './SectionHeading';
-import { Briefcase, MapPin, Calendar } from 'lucide-react';
+import {  MapPin, Calendar } from 'lucide-react';
 
 
 const experiences = [
