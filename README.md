@@ -1,73 +1,121 @@
-# React + TypeScript + Vite
+# 🚀 Ayush Maurya — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and recruiter-focused portfolio built with **React, TypeScript, Vite, Tailwind CSS, and Framer Motion**.
 
-Currently, two official plugins are available:
+### 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Portfolio:** https://portfolio-ayush-l7ee.onrender.com/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+I'm a Software Engineer passionate about building scalable web applications, AI-powered products, and modern digital experiences.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+My expertise includes:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* React.js
+* Next.js
+* TypeScript
+* Node.js
+* MongoDB
+* PostgreSQL
+* AI Integrations
+* REST APIs
+* Full Stack Development
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* Modern UI/UX Design
+* Fully Responsive Layout
+* Smooth Framer Motion Animations
+* Interactive Project Showcase
+* Experience Timeline
+* Skills & Technologies Section
+* Achievement Highlights
+* Resume Download
+* Contact Form Integration
+* Optimized Performance
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React 19
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
+
+### Backend & Database
+
+* Node.js
+* Express.js
+* MongoDB
+* PostgreSQL
+
+### Tools & Platforms
+
+* Git & GitHub
+* VS Code
+* Render
+* Postman
+* Figma
+
+---
+
+## 🏆 Achievements
+
+* 🥇 1st Place — Webathon
+* 🏅 Top 10 Team among 200+ Teams
+* 💻 100+ DSA Problems Solved
+* 🚀 Multiple Full Stack & AI Projects Built
+
+---
+
+## 📂 Featured Projects
+
+### AI Healthcare Assistant
+
+AI-powered healthcare platform providing intelligent assistance and modern healthcare solutions.
+
+### QuickAI
+
+Full-stack AI SaaS application with advanced AI integrations and productivity tools.
+
+### Disaster Management Platform
+
+Emergency response and resource coordination system built during Hackfest.
+
+---
+
+## 📸 Portfolio Preview
+
+Visit the live portfolio:
+
+👉 https://portfolio-ayush-l7ee.onrender.com/
+
+---
+
+## 📄 Resume
+
+Download Resume directly from the portfolio navigation bar.
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+### Ayush Maurya
+
+* GitHub: https://github.com/Ayush757109
+* LinkedIn: https://linkedin.com/in/ayush2112
+* Portfolio: https://portfolio-ayush-l7ee.onrender.com/
+
+---
+
+⭐ If you like this portfolio, consider giving the repository a star.
